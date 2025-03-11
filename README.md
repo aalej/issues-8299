@@ -62,7 +62,7 @@ google.api_core.exceptions.Unknown: None
 When connecting to an actual project, no errors are raised
 
 1. Run `export GOOGLE_APPLICATION_CREDENTIALS=./service-account.json`
-2. Upadte the Python code to something like below:
+2. Update the Python code to something like below:
 
 ```python
 import os
@@ -91,3 +91,5 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+3. No errors raised.
